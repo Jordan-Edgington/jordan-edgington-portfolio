@@ -6,7 +6,7 @@ import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/jordan-edgington-portfolio/",
     element: <App />,
     children: [
       {
@@ -14,11 +14,11 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       { 
-        path: '/about/',
+        path: '/jordan-edgington-portfolio/about/',
         element: <AboutPage/>
       },
       {
-        path: '/projects/',
+        path: '/jordan-edgington-portfolio/projects/',
         element: <ProjectsPage/>
       }
     ],
