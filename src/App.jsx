@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='flex flex-col align-middle justify-center items-center'>
       <div className='bg-slate-800 h-16 w-full flex align-middle justify-center items-center '>
-        <Link to='/'><Button className='ml-4 mr-4 md:ml-10 md:mr-10 bg-slate-800 text-lg md:text-xl font-serif'>Home</Button></Link>
+        <Link to='/jordan-edgington-portfolio/'><Button className='ml-4 mr-4 md:ml-10 md:mr-10 bg-slate-800 text-lg md:text-xl font-serif'>Home</Button></Link>
         <Link to='about/'><Button className='ml-4 mr-4 md:ml-10 md:mr-10 bg-slate-800 text-lg md:text-xl font-serif'>About</Button></Link>
         <Link to='projects/'><Button className='ml-4 mr-4 md:ml-10 md:mr-10 bg-slate-800 text-lg md:text-xl font-serif'>Projects</Button></Link>
         <NavigationMenu className='bg-slate-800 ml-4 mr-4 md:ml-10 md:mr-10'>

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jordan-edgington.github.io/jordan-edgington-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
