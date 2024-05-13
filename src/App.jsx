@@ -3,12 +3,9 @@ import { Outlet, Link } from 'react-router-dom'
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
 
@@ -27,7 +24,7 @@ function App() {
             <NavigationMenuItem >
               <NavigationMenuTrigger className='border-black border-solid border-2'>My Links</NavigationMenuTrigger>
               <NavigationMenuContent className='flex flex-col align-middle justify-center items-center'>
-                <a className='mt-1 mb-1 ml-4 mr-4 hover:text-red-900' href='https://www.linkedin.com/in/jordan-edgington-b78170294/'>LinkedIN</a>
+                <a className='mt-1 mb-1 ml-4 mr-4 hover:text-red-900' href='https://www.linkedin.com/in/jordanedgington/'>LinkedIN</a>
                 <a className='mt-1 mb-1 ml-4 mr-4 hover:text-red-900' href='https://github.com/Jordan-Edgington'>GitHub</a>
               </NavigationMenuContent>
             </NavigationMenuItem>

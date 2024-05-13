@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AboutPage() {
     return (
         <div className='h-full w-5/6 md:w-1/2 flex flex-col align-middle justify-center items-center '>
@@ -9,13 +11,16 @@ function AboutPage() {
             <ul>
                 <li className='font-mono text-center'>Python</li>
                 <li className='font-mono text-center'>Javascript</li>
+                <li className='font-mono text-center'>Typescript</li>
                 <li className='font-mono text-center'>HTML</li>
                 <li className='font-mono text-center'>CSS</li>
                 <li className='font-mono text-center'>React</li>
                 <li className='font-mono text-center'>PostgreSQL</li>
-                <li className='font-mono text-center'>Flask</li>
                 <li className='font-mono text-center'>Django</li>
+                <li className='font-mono text-center'>Websockets</li>
             </ul>
+            <p className='text-center font-serif m-4'>See my <Link to='projects/' className='text-blue-900 hover:text-red-900 underline'>Projects</Link> to see how I have used these technologies recently.</p>
+
         </div>
     )}
     export default AboutPage;
